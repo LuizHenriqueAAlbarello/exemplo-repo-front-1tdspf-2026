@@ -4,6 +4,12 @@
     background: var(--bg-gradiente);
 } 
 
+    .cabecalho__ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
 .cabecalho__li{
     display: inline-block;
     margin: 0 1%;
@@ -11,17 +17,20 @@
 
 .cabecalho__a{
     display: inline-block;
-    background-color:rgb(255, 0, 200);
     padding: 4%;
     width: 9vw;
     text-align: center;
-    border: 1px solid #000000;
+    color: #fff;
+   
 }
 
 /*PSEUDO CLASSE*/
 
 .cabecalho__a:hover{
-    background-color: #000000;
-    color: #ffffff;
-    border: 1px solid #fff;
+    background-color:#1763a5;
+    color: #fff;
+}
+
+@media(max-width:320px){
+    
 }
